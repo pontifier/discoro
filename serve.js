@@ -2,7 +2,7 @@
 'use strict';
 
 var https = require('https')
-  , port = process.argv[2] || 8043
+  , port = process.argv[2] || 443
   , fs = require('fs')
   , path = require('path')
   , checkip = require('check-ip-address')
